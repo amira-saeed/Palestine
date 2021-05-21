@@ -1,0 +1,177 @@
+/*==================  Start home section  ====================*/
+#home{
+  height:100vh;
+  background-image: url('/images/palestine-flag.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  
+}
+.eventOverlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(99, 99, 99, 0.753);
+
+}
+.home-text
+{
+  color:white;
+ 
+}
+.home-text h1{
+  font-size: 5rem;
+}
+#open-nav
+{
+
+  z-index: 1000;
+  position: fixed;
+  top: 50%;
+  cursor: pointer;
+}
+#open-nav p
+{
+  background-color:#D4C4A7;
+  width: 2.5rem;
+  height: 3rem;
+
+}
+.side-nav
+{
+  height:100vh;
+  width:14rem;
+  background-color:#1E1B15;
+  position: fixed;
+  z-index: 1000;
+  display: none;
+}
+.side-nav a{
+  display: block;
+  color:#fff;
+  padding: 1rem;
+  font-size: 2rem;
+
+}
+.side-nav .close-btn
+{
+  color: #4f8820c2;
+  cursor:pointer;
+}
+/*==================  End home section  ====================*/
+
+
+/*==================   Start Details Secion  ====================*/
+#details
+{
+  
+  background-size: 100% 100%;
+  background-color: #d4c4a788;
+}
+.det-container{
+  background-image: url('/images/Nabil.jpg');
+width:800px;
+
+}
+.det-container
+{
+  background-color: #D4C4A7;
+  padding:15px;
+}
+#details h1{
+  background-color: #1E1B15;
+  color: #D4C4A7;
+ 
+ 
+}
+#details .det-box{
+  background-color: #a61c00ce;
+  display: none;
+ 
+  padding:15px;
+}
+
+#details h4{
+  
+  background-color: #4f8820c2;
+  color: #D4C4A7;
+  cursor:pointer;
+  margin:0 !important;
+padding:5px;
+}
+
+/*==================   End Details Secion  ====================*/
+
+
+/*==================   start Duration Secion  ====================*/
+#duration{
+  background-image: url('/images/duration.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.dur-text
+{
+  margin: 5rem;
+}
+.dur-text h1
+{
+  color:#fff;
+  font-size: 3rem;
+  
+}
+.dur-text p{
+  color: #D4C4A7
+}
+
+#duration .dur-box
+{
+  color:#fff;
+  padding:3rem 5rem;
+  font-size: 2rem;
+  border: burlywood solid 4px;
+  
+}
+
+/*==================   end Duration Secion  ====================*/
+
+
+/*==================   Start Contact Secion  ====================*/
+.contact-text h1{
+  color: #a61c00e1;
+}
+
+.con-box h2{
+  color: #a61c0059;
+;
+}
+.con-social i
+{
+
+  color: #a61c00e1;
+}
+#char
+{
+  color:#a61c00e1;
+  font-weight: bold;
+}
+.btn{
+  background-color:#a61c00e1;
+  color:#fff;
+}
+
+
+/*==================   End Contact Secion  ====================*/
+
+@media screen and (max-width: 600px) {
+  .side-nav {
+   width: 100%;
+   height: 50%;
+  
+  }
+
+}
